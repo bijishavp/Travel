@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY_TRAVEL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fs-5" data-bs-theme="dark" id="navi">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href=""><img src="./img/logo.gif" id="logo" alt="No image"><h3 class="text-warning">eXpLoRe</h3></a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#first">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#second">Destinations</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#third">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fourth">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#six">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 1 -->
+  <section class="first w-100" id="first">
+
+    <h1 class="text-center" id="head1">
+      Let's Travel Across the world
+    </h1>
+    <h3 class="fs-6 text-center text-dark" id="quotes">perfect guidance....perfect staycation.</h3>
+
+    <div class="d-grid p-5 col-3 mx-auto">
+      <a class="btn btn-danger fs-5 " type="button" href="#fifth">Book your Trip</a>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section class="second w-100" id="second">
+    <div class="container text-center text-light">
+
+      <h1 class="text-center pb-5 text-dark" id="head2">Our Destinations</h1>
+      <h3 class="mb-5 text-dark">Destinations with customizable Packages <i class="fa-solid fa-heart"
+          style="color: #ed0713;"></i></h3>
+
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+              <img src="./img/maldives.jpg" alt="">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <!-- <i class="fa-solid fa-star-half-stroke"></i> -->
+                <!-- <i class="fa-regular fa-star"></i> -->
+
+              </div>
+            </div>
+            <div class="dest_details">
+              <h4 class="p-3 fs-3 text-danger text-center">Maldives</h4>
+              <p class="text-dark text-center">An exciting holiday package in Maldives Paradise Island Resort <br><br>
+                $4604 / person<br>
+                5<i class="fa-solid fa-star"></i> Hotel <br>
+                4 <i class="fa-solid fa-sun fa-beat"></i> 5 <i class="fa-solid fa-moon fa-beat"></i> <br>
+
+              </p>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+              <img src="./img/thailand.webp" alt="">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+
+              </div>
+            </div>
+            <div class="dest_details">
+              <h4 class="p-3 fs-3 text-danger text-center">Thailand</h4>
+              <p class="text-dark text-center">The Magical holiday package to Thailand in mesmerizing Bangkok and
+                Pattaya<br><br> $604 / person<br>4<i class="fa-solid fa-star"></i> Hotel <br>
+                5 <i class="fa-solid fa-sun fa-beat"></i> 4 <i class="fa-solid fa-moon fa-beat"></i> <br>
+              </p>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+              <img src="./img/paris.jpg" alt="">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+
+              </div>
+            </div>
+            <div class="dest_details">
+              <h4 class="p-3 fs-3 text-danger text-center">Paris</h4>
+              <p class="text-dark text-center">The way to explore eiffel tower and Disneyland paris etc... is yours
+                now<br><br> $1604 / person<br>5<i class="fa-solid fa-star"></i> Hotel <br>
+                4 <i class="fa-solid fa-sun fa-beat"></i> 3 <i class="fa-solid fa-moon fa-beat"></i> <br></p>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4">
+              <div class="dest_box bg-light">
+                <div class="dest_img">
+                  <img src="./img/london.webp" alt="">
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half-stroke"></i> -->
+                    <i class="fa-regular fa-star"></i>
+
+                  </div>
+                </div>
+                <div class="dest_details">
+                  <h4 class="p-3 fs-3 text-danger text-center">London</h4>
+                  <p class="text-dark text-center">Enjoy the London bliss of Big Ben , The London Eye and so on<br><br>
+                    $1604 / person<br>5<i class="fa-solid fa-star"></i> Hotel <br>
+                    4 <i class="fa-solid fa-sun fa-beat"></i> 3 <i class="fa-solid fa-moon fa-beat"></i> <br></p>
+                </div>
+
+                <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="dest_box bg-light">
+                <div class="dest_img">
+                  <img src="./img/hong.webp" alt="">
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                  </div>
+                </div>
+                <div class="dest_details">
+                  <h4 class="p-3 fs-3 text-danger text-center">HongKong</h4>
+                  <p class="text-dark text-center">Enjoy the whole HongKong Islands,Victoria Peak and so on<br><br>
+                    $8600 / person<br>5<i class="fa-solid fa-star"></i> Hotel <br>
+                    5 <i class="fa-solid fa-sun fa-beat"></i> 6 <i class="fa-solid fa-moon fa-beat"></i> <br></p>
+                </div>
+                <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="dest_box bg-light">
+                <div class="dest_img">
+                  <img src="./img/singapore.webp" alt="">
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                  </div>
+                </div>
+                <div class="dest_details">
+                  <h4 class="p-3 fs-3 text-danger text-center">Singapore</h4>
+                  <p class="text-dark text-center">Have a beautiful holiday in Singapore with Sentosa Island , China
+                    Town n more to go..<br><br> $3004 / person<br>5<i class="fa-solid fa-star"></i> Hotel <br>
+                    5 <i class="fa-solid fa-sun fa-beat"></i> 4 <i class="fa-solid fa-moon fa-beat"></i> <br></p>
+                </div>
+                <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+  <!-- 3 -->
+
+  <section class="third w-100 bg-dark text-danger" id="third">
+
+    <h1 class="text-center text-warning" id="head3">
+      Travelling Gallery
+    </h1>
+    <div class="container" id="gallery_c">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/thaigallery.jpg" alt="">
+            <h4 class="text-warning fs-3">Thailand</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/parisgallery.jpg">
+            <h4 class="text-warning fs-3">Paris</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/maldgallery.jpg">
+            <h4 class="text-warning fs-3">Maldives</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/hongkgallery.jpg">
+            <h4 class="text-warning fs-3">HongKong</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container" id="gallery_c">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/singaprgallery.jpg" alt="">
+            <h4 class="text-warning fs-3">Singapore</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/londongallery.jpg">
+            <h4 class="text-warning fs-3">London</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/budhagallery.jpg">
+            <h4 class="text-warning fs-3">Budha</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery">
+            <img src="./img/pattayagallery.jpg">
+            <h4 class="text-warning fs-3">Pattaya</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- 4 -->
+
+  <section class="fourth" id="fourth">
+    <div class="container">
+      <h1 class="text-dark mb-5">Hot Deals</h1>
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+
+              <img src="./img/maldivesg.jpg_large" alt="">
+              <div class="price">
+                <p class="mt-2">-15%</p>
+              </div>
+              <h3 class="text-dark pt-3">Maldives</h3>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+              <img src="./img/thailandg.jpg" alt="">
+              <div class="price">
+                <p class="mt-2">-20%</p>
+              </div>
+              <h3 class="text-dark pt-3">Thailand</h3>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="dest_box bg-light">
+            <div class="dest_img">
+              <img src="./img/parisg.jpg" alt="">
+              <div class="price">
+                <p class="mt-2">-13%</p>
+              </div>
+              <h3 class="text-dark pt-3">Paris</h3>
+            </div>
+            <a href="#fifth" class="btn btn-danger mb-3">Book Now</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+  </section>
+
+  <!-- 5 -->
+  <section id="fifth" class="fifth bg-dark w-100 text-light">
+
+    <div class="container">
+      <h1 class="text-warning pt-5">Book Your Trip Now</h1>
+
+      <form class="row g-4 pt-5 text-warning">
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Destination</label>
+          <select id="inputState" class="form-select">
+            <option selected></option>
+            <option>Maldives</option>
+            <option>Thailand</option>
+            <option>Singapore</option>
+            <option>HongKong</option>
+            <option>Paris</option>
+            <option>London</option>
+          </select>
+        </div>
+
+        <div class="col-md-4">
+          <label for="startdate" class="form-label">Start_Date</label>
+          <input type="date" class="form-control" id="startdate">
+        </div>
+        <div class="col-md-4">
+          <label for="enddate" class="form-label">End_Date</label>
+          <input type="date" class="form-control" id="enddate">
+        </div> <br>
+        <div class="col-md-4">
+          <label for="uname" class="form-label">Name</label>
+          <input type="text" class="form-control" id="uname">
+        </div>
+        <div class="col-md-4">
+          <label for="uemail" class="form-label">email</label>
+          <input type="email" class="form-control" id="uemail">
+        </div>
+
+        <div class="col-md-4">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="phone">
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary btn-warning p-3 mb-5">Let's Go</button>
+        </div>
+      </form>
+
+    </div>
+
+  </section>
+
+  <section class="review w-100" id="review">
+
+    <div class="container">
+
+      <h1 class="text-dark mb-5">Our happy clients say</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="review_box text-dark">
+            <div class="review_details">
+              <p class=" text-center">
+                Kiara - <br><br>
+                Wonderful experience with this team.thank u once again for the memorable trip guidance and it is so
+                affordable too.
+              </p>
+
+              <img class="user1 w-25 mt-1" src="./img/kiara.avif" alt=""> <br>
+              <div class="rating bg-light">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 ">
+          <div class="review_box text-dark">
+            <div class="review_details">
+              <p class=" text-center">
+                Rose - <br><br>
+                very happy to say about @eXpLoRe ..! Got a marvellous journey to Thailand and i enjoyed guidance and
+                every resorts i stayed was perfect .
+              </p>
+
+              <img class="user1 w-25 mt-1" src="./img/rose.avif" alt=""> <br>
+              <div class="rating bg-light">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-md-4">
+          <div class="review_box text-dark">
+            <div class="review_details">
+              <p class=" text-center">
+                Neha - <br><br>
+                Soo happy to say about explore team. exploring maldives with better staycation and food and also
+                guidance was perfect.
+              </p>
+
+              <img class="user1 w-25 mt-1" src="./img/neha.jpg" alt=""> <br>
+              <div class="rating bg-light">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+
+  <!-- 6 -->
+  <section id="six" class="six w-100">
+    <h1 class="text-center text-dark mb-5">Contact us</h1>
+    <div class="container">
+      <div class="row p-5 bg-dark text-warning">
+        <div class="col-md-3 p-3 text-center">
+          <p class="fs-5 mt-3">
+            <i class="fa-solid fa-location-dot fa-beat"></i> <br>
+            Calicut
+          </p>
+        </div>
+        
+        <div class="col-md-3  p-3 text-center">
+          <p class="fs-5 mt-3">
+            
+            <i class="fa-solid fa-envelope fa-beat"></i>
+            Explore987@gmail.com
+            <i class="fa-solid fa-envelope fa-beat"></i>
+            Explore123@gmail.com
+          </p>
+
+        </div>
+        <div class="col-md-3 p-3 text-center">
+          <p class="fs-5 mt-3">
+            <i class="fa-solid fa-phone fa-beat"></i>
+            1800-980-567 <br>
+            <i class="fa-solid fa-phone fa-beat"></i>
+            1800-234-789
+          </p>
+
+        </div>
+        <div class="col-md-3 p-3 text-center">
+          <form class="row g-4  text-warning">
+            <p class="fs-5 mt-5"> 
+            
+            <a href="https://www.exploreworldwide.com/" target="_blank" class="btn btn-warning mt-2">sent your feedbacks</a>
+            <br><i class="fa-solid fa-heart fa-bounce" style="color: #e11919;"></i>
+          </p>
+          </form>
+          
+
+        </div>
+
+      </div>
+
+      <div class="iconDiv">
+        <div class="icon">
+          <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="icon">
+          <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="icon">
+          <a href="https://www.facebook.com/login" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="icon">
+          <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <footer>
+        <p class="text-center text-dark mb-5">&copy;explore 2023,all rights reserved &reg; eXpLoRe</p>
+        <div class="upArrow">
+          <a href="#first"><i class="fa-solid fa-arrow-up fa-3x text-dark"></i></a>
+        </div>
+
+      </footer>
+
+    </div>
+
+
+  </section>
+
+
+  </div>
+
+</body>
+
+</html>
